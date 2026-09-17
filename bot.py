@@ -12,7 +12,7 @@ from aiohttp import web
 pyrogram.utils.MIN_CHANNEL_ID = -1002449417637
 
 name = """
-Link share bot started ✨ Credit:- @CantarellaBots
+Link share bot started ✨ Credit:- @AnimeNetworkTamil 
 """
 
 class Bot(Client):
@@ -93,7 +93,7 @@ class Bot(Client):
             self.LOGGER(__name__).warning(f"Failed to send bot start message in {DATABASE_CHANNEL}: {e}")
         
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info("Wew...Bot is running...⚡  Credit:- @CantarellaBots")
+        self.LOGGER(__name__).info("Wew...Bot is running...⚡  Credit:- @AnimeNetworkTamil)
         self.LOGGER(__name__).info(f"{name}")
         self.username = usr_bot_me.username
         
