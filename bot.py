@@ -93,7 +93,7 @@ class Bot(Client):
             self.LOGGER(__name__).warning(f"Failed to send bot start message in {DATABASE_CHANNEL}: {e}")
         
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info("Wew...Bot is running...⚡  Credit:- @AnimeNetworkTamil)
+        self.LOGGER(__name__).info("View...Bot is running...⚡ Credit:- @AnimeNetworkTamil")
         self.LOGGER(__name__).info(f"{name}")
         self.username = usr_bot_me.username
         
